@@ -1,0 +1,19 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "package": "npm i && zip -r main.zip .",
+    "start": "functions-framework --target=myFunction"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/tasks": "^2.1.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^1.5.1"
+  }
+}
